@@ -2,7 +2,7 @@ body {
   margin: 1em;
 }
 
-main {
+.first {
   height: 69.31em;
   background-color: #3B495B;
 }
@@ -53,6 +53,69 @@ h2 {
   margin: 0 auto 2em;
   height: 4.31em;
   width: 18.94em;
+  background-color: #FFFFFF;
+
+}
+
+.space1 {
+  height: 12em;
+  background-color: #EBF2F6;
+}
+
+.wboxes {
+  height: 100em;
+  background-color: #D7D8DC;
+}
+
+.whitebox {
+  height: 15em;
+  background-color: #FFFFFF;
+  margin: 1.25em 1em;
+  width: auto;
+}
+
+.bluebox {
+  border: solid #EBF2F6;
+  border-top-width: 6.125em;
+  margin: 0 auto;
+  text-align: center;
+  height: 3.1em;
+  width: 13em;
+  background-color: #1A95D1;
+  line-height: 3.1em;
+}
+
+.bottom {
+  text-align: center;
+  font-size: .5em;
+  height: 14em;
+  background-color: #000000;
+
+}
+
+.topfoottext {
+  margin: 0 auto;
+  padding-top: 2.75em;
+  color: #FFFFFF;
+
+}
+
+.botfoottext {
+  color: #FFFFFF;
+  padding-top: 2em;
+  padding-bottom: 3em;
+}
+
+
+a {
+  padding-right: 1em;
+
+}
+
+.bottomwb {
+  margin:0 auto;
+  height: 1.5em;
+  width: 8.5em;
   background-color: #FFFFFF;
 
 }
