@@ -63,15 +63,16 @@ h2 {
 }
 
 .wboxes {
-  height: 100em;
+  height: 97em;
   background-color: #D7D8DC;
+  padding-top: .1em;
 }
 
 .whitebox {
   height: 15em;
   background-color: #FFFFFF;
-  margin: 1.25em 1em;
   width: auto;
+  margin: 1em .5em;
 }
 
 .bluebox {
