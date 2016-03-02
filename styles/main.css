@@ -1,8 +1,58 @@
-.body {
+body {
   margin: 1em;
 }
 
-.header {
+main {
+  height: 69.31em;
+  background-color: #3B495B;
+}
+
+.topblue {
   height: 3em;
   background-color: #1096C7;
+}
+
+h1 {
+  color: #FFFFFF;
+  text-align: center;
+  padding-top: 5em;
+  width: 13em;
+  margin: 0 auto;
+  padding-bottom: 1.5em;
+}
+
+h2 {
+  font-size: .8em;
+  align-content: center;
+  color: #FFFFFF;
+  width:19em;
+  text-align: center;
+  margin: 0 auto;
+  padding-bottom: 3em;
+}
+
+.topbox {
+  margin: 0 auto;
+  text-align: center;
+  border: solid .5em;
+  border-color: black;
+  height: 3.1em;
+  width: 13em;
+  background-color: #1A95D1;
+  line-height: 3.1em;
+}
+
+.smallbox {
+  margin: 13em auto 8.375em;
+  height: 1.3em;
+  width: 3em;
+  background-color: #FFFFFF;
+}
+
+.tripbox {
+  margin: 0 auto 2em;
+  height: 4.31em;
+  width: 18.94em;
+  background-color: #FFFFFF;
+
 }
