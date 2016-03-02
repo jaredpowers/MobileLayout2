@@ -95,9 +95,12 @@ footer {
 }
 
 .topfoottext {
+  .topfoottext > div;
   margin: 0 auto;
   padding-top: 2.75em;
   color: #FFFFFF;
+  padding-right: 1em;
+  text-decoration: none;
 
 }
 
@@ -107,16 +110,60 @@ footer {
   padding-bottom: 3em;
 }
 
-
-a {
-  padding-right: 1em;
-  text-decoration: none;
-}
-
 .bottomwb {
   margin:0 auto;
   height: 1.5em;
   width: 8.5em;
   background-color: #FFFFFF;
 
+}
+
+.tlbox {
+  background-color: white;
+  height: 2em;
+  width: 2em;
+  display: inline-block;
+  box-sizing: content-box;
+  margin-top: .5em;
+  margin-left: .5em;
+
+}
+
+.tsbox {
+  background-color: white;
+  height: 2em;
+  width: 6em;
+  display: inline-block;
+  box-sizing: content-box;
+  margin-top: .5em;
+  margin-left: .5em;
+
+}
+
+.tloginbox {
+  background-color: #006FA6;
+  height: 3em;
+  width: 4.69em;
+  display: inline-block;
+  box-sizing: content-box;
+  float: right;
+}
+
+.lefttb {
+  background-color: #616E80;
+  height: 3.63em;
+  width: 14%;
+  box-sizing: content-box;
+  display: inline-block;
+  margin-top: .7em;
+}
+
+.righttb{
+  background-color: #616E80;
+  height: 3.63em;
+  width: 82%;
+  box-sizing: content-box;
+  display: inline-block;
+  float: right;
+  margin-right: .1em;
 }
