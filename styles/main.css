@@ -40,6 +40,10 @@ h2 {
   width: 13em;
   background-color: #1A95D1;
   line-height: 3.1em;
+  color: #FFFFFF;
+  font-size: 1.5em;
+  box-sizing: border-box;
+  line-height: 2em;
 }
 
 .smallbox {
@@ -58,8 +62,14 @@ h2 {
 }
 
 .space1 {
-  height: 12em;
+  height: 6em;
   background-color: #EBF2F6;
+  font-size: 1.4em;
+  font-weight: lighter;
+  text-align: center;
+  box-sizing: padding-box;
+  padding: 1em;
+  vertical-align: middle;
 }
 
 .wboxes {
@@ -81,13 +91,14 @@ h2 {
 
 .bluebox {
   border: solid #EBF2F6;
-  border-top-width: 6.125em;
   margin: 0 auto;
   text-align: center;
   height: 3.1em;
   width: 13em;
   background-color: #1A95D1;
   line-height: 3.1em;
+  font-weight: normal;
+  color: #FFFFFF;
 }
 
 footer {
@@ -127,49 +138,56 @@ footer {
   height: 2em;
   width: 2em;
   display: inline-block;
-  box-sizing: content-box;
+  box-sizing: border-box;
   margin-top: .5em;
   margin-left: .5em;
+  line-height: 3em;
+  float: left;
 
 }
 
 .tsbox {
-  background-color: white;
-  height: 2em;
+  color: #FFFFFF;
+  height: 3em;
   width: 6em;
   display: inline-block;
-  box-sizing: content-box;
-  margin-top: .5em;
+  box-sizing: border-box;
   margin-left: .5em;
-
+  line-height: 1.5em;
+  float: left;
+  padding-left: 1em;
+  padding-top: 1em;
 }
 
 .tloginbox {
   background-color: #006FA6;
-  height: 3em;
+  height: 2.45em;
   width: 4.69em;
   display: inline-block;
   box-sizing: content-box;
   float: right;
+  color:#FFFFFF;
+  text-align: center;
+  padding-top: 1.3em;
+  font-size: .8em;
 }
 
 .lefttb {
-  background-color: #616E80;
   height: 3.63em;
   width: 14%;
   box-sizing: content-box;
   display: inline-block;
   margin-top: .7em;
+
 }
 
 .righttb{
-  background-color: #616E80;
-  height: 3.63em;
+  background-color: #3A495C;
+  height: 100%;
   width: 82%;
   box-sizing: content-box;
   display: inline-block;
   float: right;
-  margin-right: .1em;
 }
 
 .topwb {
@@ -180,14 +198,12 @@ footer {
 }
 
 .midwb {
-  background-color: #CED8DD;
   height: 1.5em;
   width: 25.56em;
   margin: 2em auto;
 }
 
 .botwb {
-  background-color: #CED8DD;
   height: 3em;
   width: 25.56em;
   margin: 2em auto;
@@ -197,4 +213,42 @@ a {
   text-decoration: none;
   color: #FFFFFF;
   padding-right: 2em;
+}
+
+h3 {
+  margin: 0 0 0 .5em;
+  color: #FFFFFF;
+}
+
+h4 {
+  margin: 1em 0 0 .7em;
+  color: #FFFFFF;
+  font-weight: normal;
+  font-size: .9em;
+}
+
+.wpcomtext {
+  margin: 0;
+  font-size: 1.2em;
+  font-weight: lighter;
+  vertical-align: middle;
+}
+
+.Blueh3 {
+  color: #4B6D82;
+  text-align: center;
+  font-weight: normal;
+}
+
+.blackh4 {
+  color: #000000;
+  text-align: center;
+}
+
+.cwebsite {
+  font-size: 1.3em;
+}
+
+.bottomheader {
+  padding: 0;
 }
