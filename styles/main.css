@@ -136,25 +136,21 @@ footer {
 }
 
 .tlbox {
-  background-color: white;
   height: 2em;
   width: 2em;
-  display: inline-block;
   box-sizing: border-box;
   margin-top: .5em;
-  margin-left: .5em;
+  margin-left: 1em;
   line-height: 3em;
   float: left;
-
+  overflow: hidden;
 }
 
 .tsbox {
   color: #FFFFFF;
   height: 3em;
   width: 6em;
-  display: inline-block;
   box-sizing: border-box;
-  margin-left: .5em;
   line-height: 1.5em;
   float: left;
   padding-left: 1em;
@@ -253,4 +249,9 @@ h4 {
 
 .bottomheader {
   padding: 0;
+}
+
+
+.fa-wordpress {
+  color: #FFFFFF;
 }
