@@ -22,13 +22,14 @@ h1 {
 }
 
 h2 {
-  font-size: .8em;
+  font-size: 1em;
   align-content: center;
   color: #FFFFFF;
   width:19em;
   text-align: center;
   margin: 0 auto;
   padding-bottom: 3em;
+  font-weight: normal;
 }
 
 .topbox {
@@ -37,7 +38,7 @@ h2 {
   border: solid .5em;
   border-color: black;
   height: 3.1em;
-  width: 13em;
+  width: 10em;
   background-color: #1A95D1;
   line-height: 3.1em;
   color: #FFFFFF;
@@ -91,6 +92,7 @@ h2 {
 
 .bluebox {
   border: solid #EBF2F6;
+
   margin: 0 auto;
   text-align: center;
   height: 3.1em;
